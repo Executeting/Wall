@@ -1,0 +1,32 @@
+<!DOCTYPE html>  
+<html lang="zh">  
+
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="css/style2.css">  
+    <title>登录界面</title>  
+</head>  
+<body>  
+    <div class="login-container">  
+        <h1>欢迎回来</h1>  
+        <form id="loginForm" onsubmit="return handleSubmit()">  
+            <div class="input-group">  
+                <label for="username">用户名</label>  
+                <input type="text" id="username" placeholder="输入用户名" required>  
+            </div>  
+            <div class="input-group">  
+                <label for="password">密码</label>  
+                <input type="password" id="password" placeholder="输入密码" required>  
+            </div>  
+            <button type="submit" harf="index.html" >登录</button>  
+        </form>  
+        <div id="message"></div>  
+        <div class="footer">  
+            <a href="#">忘记密码？</a>  
+        </div>  
+    </div>  
+    <script src="js/script.js"></script>  
+</body>  
+</html>
+
